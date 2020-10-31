@@ -1,12 +1,12 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "GoIndex-theme-acrou", // 网站名称
+  siteName: "joseph", // 网站名称
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
   client_id: "202264815644.apps.googleusercontent.com",
   client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  refresh_token: "1//0dC0gpd4iyIzYCgYIARAAGA0SNwF-L9Ir28dGaEkM-iLd7ffkLtWqInN9V6x9TnaJAMcsmemPUrdZXNvd-SfWZos-qbjbS_zeNPA", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -20,25 +20,15 @@ var authConfig = {
    * 不需要 Basic Auth 的盘，保持 user 和 pass 同时为空即可。（直接不设置也可以）
    * 【注意】对于id设置为为子文件夹id的盘将不支持搜索功能（不影响其他盘）。
    */
-  roots: [
-    {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
-    },
-    {
-      id: "root",
-      name: "PrivateDrive",
-      user: "",
-      pass: "",
-      protect_file_link: true,
-    },
-    {
-      id: "",
-      name: "folder1",
-      pass: "",
-    },
-  ],
+  "roots": [
+	{
+		"id": "0ABrWNIOuCGtjUk9PVA",
+		"name": "kokoking",
+		"user": "test",
+		"pass": "test@!",
+		"protect_file_link": false
+	}
+],
   default_gd: 0,
   /**
    * 文件列表页面每页显示的数量。【推荐设置值为 100 到 1000 之间】；
